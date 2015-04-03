@@ -2,11 +2,11 @@ using System;
 using System.Configuration;
 using System.IO;
 // reference https://github.com/LeafDuan/WebPrint/tree/master/WebPrint.Framework
-using VehicleVideo.Framework;
+using WebPrint.Framework;
 // reference https://github.com/LeafDuan/WebPrint/tree/master/WebPrint.Logging
-using VehicleVideo.Logging;
+using WebPrint.Logging;
 
-namespace VehicleVideo.CameraServer.Helper
+namespace WebPrint.CameraServer.Helper
 {
     public class FfmpegHelper
     {

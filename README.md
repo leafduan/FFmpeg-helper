@@ -10,3 +10,7 @@ flv = "D:\"
   
 the whole command looks like:  
 "D:\ffmpeng.exe" -i "D\:test.mp4" -c:v libx264 -crf 24 "D:\test.flv"
+  
+# Another effective way to decode mp4 to flv  
+ffmpeg.exe -i input.flv -y -vcodec copy -acodec copy output.mp4  
+
